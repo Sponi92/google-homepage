@@ -4,6 +4,7 @@ margin-left:5px;
 margin-right:5px;
 text-align:right;
 }
+
 #head{
 text-align:right;
 }
@@ -68,11 +69,28 @@ text-align:left;
   width: 100%;
 height:35px;
 }
-#rest{
-  position: fixed;
+.footer{
+display:inline-block;
+margin-left:5px;
+margin-right:5px;
+text-align:left;
+}
+#werbung{
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 100px;
+height:35px;
+}
+#unternehmen{
+  left: 100px;
+  bottom: 0;
+  width: 100px;
+height:35px;
+}
+#suche{
+  left: 200px;
+  bottom: 0;
+  width: 100px;
 height:35px;
 }
 

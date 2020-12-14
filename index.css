@@ -56,6 +56,19 @@ text-align:center;
 margin-top:35px;
 }
 
+.footer1{
+text-align:left;
+  float:bottom;
+  left: 0;
+  line-height:35px;
+  bottom: 35px;
+  width: 100%;
+  border:2px;
+color:gray;
+border-color:gray;
+background-color:rgb(240, 240, 240);
+}
+
 .footerl{
 float:left;
 text-align:left;
@@ -80,14 +93,6 @@ background-color:rgb(240, 240, 240);
 }
 
 
-#land{
-text-align:left;
-  float:bottom;
-  left: 0;
-  line-height:35px;
-  bottom: 35px;
-  width: 100%;
-}
 
 .footerr{
 float:left;
@@ -95,13 +100,52 @@ text-align:right;
 width:35%;
 height:35px;
 line-height:35px;
-border:5px;
 color:gray;
-border-color:black;
+border:2px;
+border-color:gray;
 background-color:rgb(240, 240, 240);
 }
 
 .footer:hover{
 text-decoration:underline;
+}
+#unternehmen:hover{
+text-decoration:underline;
+}
+#werbung:hover{
+text-decoration:underline;
+}
+#suche:hover{
+text-decoration:underline;
+}
+#daten:hover{
+text-decoration:underline;
+}
+#nutzung:hover{
+text-decoration:underline;
+}
+#einstellung:hover{
+text-decoration:underline;
+}
+#gmail:hover{
+text-decoration:underline;
+}
+#bilder:hover{
+text-decoration:underline;
+}
+
+#links:hover{
+border-style:solid;
+border-width:2px;
+border-color:gray;
+}
+#rechts:hover{
+border-style:solid;
+border-width:2px;
+border-color:gray;
+}
+
+a{
+text-decoration:none;
 }
 

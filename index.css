@@ -61,6 +61,7 @@ float:left;
 text-align:left;
 width:35%;
 height:35px;
+line-height:35px;
 border:2px;
 color:gray;
 border-color:gray;
@@ -71,6 +72,7 @@ float:left;
 text-align:center;
 width:30%;
 height:35px;
+line-height:35px;
 color:gray;
 border:2px;
 border-color:gray;
@@ -82,6 +84,7 @@ background-color:rgb(240, 240, 240);
 text-align:left;
   float:bottom;
   left: 0;
+  line-height:35px;
   bottom: 35px;
   width: 100%;
 }
@@ -91,9 +94,14 @@ float:left;
 text-align:right;
 width:35%;
 height:35px;
+line-height:35px;
 border:5px;
 color:gray;
 border-color:black;
 background-color:rgb(240, 240, 240);
+}
+
+.footer:hover{
+text-decoration:underline;
 }
 

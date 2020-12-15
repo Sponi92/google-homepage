@@ -1,3 +1,6 @@
+body{
+margin:0px;
+}
 #head{
 text-align:right;
 }
@@ -13,7 +16,7 @@ width:auto;
 height:auto;
 }
 #search{
-margin-top:100px;
+margin-top:50px;
 }
 .search
 {  
@@ -49,18 +52,17 @@ padding:5px;
 #Angebote{
 text-align:center;
 margin-top:35px;
+margin-bottom:7%;
 }
 
 .footer{
 float:left;
-height:35px;
-line-height:35px;
-border:2px;
+height:34.5px;
+line-height:34.5px;
 color:gray;
-border-color:gray;
 background-color:rgb(240, 240, 240);
+border-top: 0.5px solid gray;
 }
-
 #footer1{
 text-align:left;
 float:bottom;
@@ -68,30 +70,36 @@ left: 0;
 bottom: 35px;
 width: 100%;
 }
+#land, .footerl{
+margin-left:25px;
+}
+.footerr{
+margin-right:25px;
+}
 #footerleft{
 float:left;
 text-align:left;
-width:35%;
+width:40%;
 }
 #footermiddle{
 float:left;
 text-align:center;
-width:30%;
+width:20%;
 }
 #footerright{
 float:left;
 text-align:right;
-width:35%;
+width:40%;
 }
-.footerl:hover, .footerr:hover, .footerm:hover, .header:hover {
+.footerl:hover, .footerr:hover, .footerm:hover, .header:hover,
+#link:hover, #logo:hover {
 text-decoration:underline;
+cursor: pointer;
 }
 .button:hover{
 border-style:solid;
 border-width:2px;
 border-color:gray;
-}
-#dlink{
-text-decoration:none;
+cursor: pointer;
 }
 

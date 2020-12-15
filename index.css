@@ -83,7 +83,7 @@ float:left;
 text-align:right;
 width:35%;
 }
-.footerl:hover, .footerr:hover, .footerm:hover {
+.footerl:hover, .footerr:hover, .footerm:hover, .header:hover {
 text-decoration:underline;
 }
 .button:hover{

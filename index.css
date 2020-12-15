@@ -31,29 +31,19 @@ height:40px;
 opacity:50%;
 margin-top:35px;
 }
-.unter{
-display:inline-block;
-}
-#unter{
+#buttons{
 display:block;
 text-align:center;
 margin-top:35px;
 font-size:20px;
 }
-#links{
+.button{
+display:inline-block;
 border:2px;
 background-color:rgb(240, 240, 240);
 border-radius:5px;
 color:black;
 margin-right:5px;
-padding:5px;
-}
-#rechts{
-border:2px;
-background-color:rgb(240, 240, 240);
-border-radius:5px;
-color:black;
-margin-left:5px;
 padding:5px;
 }
 #Angebote{
@@ -65,10 +55,10 @@ margin-top:35px;
 text-align:left;
   float:bottom;
   left: 0;
-  line-height:35px;
   bottom: 35px;
   width: 100%;
-  border:2px;
+line-height:35px;
+border:2px;
 color:gray;
 border-color:gray;
 background-color:rgb(240, 240, 240);
@@ -85,14 +75,17 @@ background-color:rgb(240, 240, 240);
 }
 
 #footerleft{
+float:left;
 text-align:left;
 width:35%;
 }
 #footermiddle{
+float:left;
 text-align:center;
 width:30%;
 }
 #footerright{
+float:left;
 text-align:right;
 width:35%;
 }

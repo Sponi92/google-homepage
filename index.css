@@ -10,6 +10,8 @@ text-align:right;
 }
 .header img{
 border-radius: 50%;
+width:auto;
+height:auto;
 }
 #main{
 margin-top:100px;
@@ -56,7 +58,7 @@ text-align:center;
 margin-top:35px;
 }
 
-.footer1{
+#footer1{
 text-align:left;
   float:bottom;
   left: 0;
@@ -69,7 +71,7 @@ border-color:gray;
 background-color:rgb(240, 240, 240);
 }
 
-.footerl{
+#footerl{
 float:left;
 text-align:left;
 width:35%;
@@ -80,7 +82,7 @@ color:gray;
 border-color:gray;
 background-color:rgb(240, 240, 240);
 }
-.footer{
+#footer{
 float:left;
 text-align:center;
 width:30%;
@@ -92,9 +94,8 @@ border-color:gray;
 background-color:rgb(240, 240, 240);
 }
 
-
-
-.footerr{
+#footerr{
+display:inline-block;
 float:left;
 text-align:right;
 width:35%;
@@ -106,25 +107,8 @@ border-color:gray;
 background-color:rgb(240, 240, 240);
 }
 
-.footer:hover{
-text-decoration:underline;
-}
-#unternehmen:hover{
-text-decoration:underline;
-}
-#werbung:hover{
-text-decoration:underline;
-}
-#suche:hover{
-text-decoration:underline;
-}
-#daten:hover{
-text-decoration:underline;
-}
-#nutzung:hover{
-text-decoration:underline;
-}
-#einstellung:hover{
+
+.underline:hover{
 text-decoration:underline;
 }
 #gmail:hover{

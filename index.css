@@ -1,11 +1,10 @@
-.header{
-display:inline-block;
-margin-left:5px;
-margin-right:5px;
+#head{
 text-align:right;
 }
 
-#head{
+.header{
+margin-left:5px;
+margin-right:5px;
 text-align:right;
 }
 .header img{
@@ -13,13 +12,17 @@ border-radius: 50%;
 width:auto;
 height:auto;
 }
-#main{
+#search{
 margin-top:100px;
 }
 .search
 {  
-display:block;
+  display: block;
 text-align:center;
+}
+#logo{
+width:auto;
+height:auto;
 }
 #input{
 width:60%;

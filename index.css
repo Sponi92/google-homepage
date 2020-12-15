@@ -51,19 +51,6 @@ text-align:center;
 margin-top:35px;
 }
 
-#footer1{
-text-align:left;
-  float:bottom;
-  left: 0;
-  bottom: 35px;
-  width: 100%;
-line-height:35px;
-border:2px;
-color:gray;
-border-color:gray;
-background-color:rgb(240, 240, 240);
-}
-
 .footer{
 float:left;
 height:35px;
@@ -74,6 +61,13 @@ border-color:gray;
 background-color:rgb(240, 240, 240);
 }
 
+#footer1{
+text-align:left;
+float:bottom;
+left: 0;
+bottom: 35px;
+width: 100%;
+}
 #footerleft{
 float:left;
 text-align:left;
@@ -89,29 +83,15 @@ float:left;
 text-align:right;
 width:35%;
 }
-
-.underline:hover{
+.footerl:hover, .footerr:hover, .footerm:hover {
 text-decoration:underline;
 }
-#gmail:hover{
-text-decoration:underline;
-}
-#bilder:hover{
-text-decoration:underline;
-}
-
-#links:hover{
+.button:hover{
 border-style:solid;
 border-width:2px;
 border-color:gray;
 }
-#rechts:hover{
-border-style:solid;
-border-width:2px;
-border-color:gray;
-}
-
-a{
+#dlink{
 text-decoration:none;
 }
 

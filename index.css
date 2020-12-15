@@ -71,42 +71,28 @@ border-color:gray;
 background-color:rgb(240, 240, 240);
 }
 
-#footerl{
+.footer{
 float:left;
+height:35px;
+line-height:35px;
+border:2px;
+color:gray;
+border-color:gray;
+background-color:rgb(240, 240, 240);
+}
+
+#footerleft{
 text-align:left;
 width:35%;
-height:35px;
-line-height:35px;
-border:2px;
-color:gray;
-border-color:gray;
-background-color:rgb(240, 240, 240);
 }
-#footer{
-float:left;
+#footermiddle{
 text-align:center;
 width:30%;
-height:35px;
-line-height:35px;
-color:gray;
-border:2px;
-border-color:gray;
-background-color:rgb(240, 240, 240);
 }
-
-#footerr{
-display:inline-block;
-float:left;
+#footerright{
 text-align:right;
 width:35%;
-height:35px;
-line-height:35px;
-color:gray;
-border:2px;
-border-color:gray;
-background-color:rgb(240, 240, 240);
 }
-
 
 .underline:hover{
 text-decoration:underline;

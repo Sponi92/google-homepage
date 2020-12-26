@@ -8,6 +8,9 @@ body{
 margin:0px;
 }
 #head{
+display:flex;
+align-items:center;
+justify-content:flex-end;
 height:36px;
 width:auto;
 margin-top:10px;
@@ -30,20 +33,11 @@ width:20px;
 height:20px;
 grid-template-columns: repeat(var(--columns), 1fr);
 grid-template-rows: repeat(var(--rows), 1fr);
-margin-top: 8px;
 }
 .grid-item{
 background-color:gray;
 margin:20%;
 }
-#gmail{
-margin-top: 9px;
-}
-#bilder {
-margin-top: 9px;
-}
-
-
 #search{
 margin-top:50px;
 }
